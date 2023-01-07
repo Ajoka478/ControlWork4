@@ -32,7 +32,7 @@ public class Cat {
         healthLevel = r.nextInt(100) + 1;
     }
 
-    public static final List<Cat> makeCats(int amount) {
+    public static List<Cat> makeCats(int amount) {
         return Stream.generate(Cat::new)
                 .limit(amount)
                 .distinct()
@@ -99,6 +99,27 @@ public class Cat {
         treatCatMood(age);
         treatCatSatiety(age);
     }
+//    public static void newDay(){
+//       newDaySatiety();
+//       newDayMood();
+//       newDayHealth();
+//    }
+
+    public static int newDayHealth() {
+        healthLevel = healthLevel +r.nextInt(3)-3;
+        return healthLevel;
+    }
+
+    public static int newDayMood() {
+        moodLevel = moodLevel + r.nextInt(3)-3;
+        return moodLevel;
+    }
+
+    public static int newDaySatiety() {
+        satietyLevel = satietyLevel - r.nextInt(5)+1;
+        return satietyLevel;
+    }
+
     public static int treatCatHealth(int age){
         healthLevel = healthLevel + checkAgeToIncrease(age);
         return healthLevel;

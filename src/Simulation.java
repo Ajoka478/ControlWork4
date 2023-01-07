@@ -49,12 +49,12 @@ public class Simulation {
                 Cat.treatCat((cats.get(choiceCat).getName()), cats.get(choiceCat).getAge());
                 break;
             case 4:
-                Cat.getNewCat(cats);
+                //Cat.getNewCat(cats);
                 break;
-            case 5:
-
+//            case 5:
+//                Cat.newDay();
             default:
-                System.out.println("Enter numbers from 1-4");
+                System.out.println("Enter numbers from 1-5");
         }
 
     }

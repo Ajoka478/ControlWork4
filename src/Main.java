@@ -7,8 +7,6 @@ public class Main {
             Simulation.run();
             System.out.println("Do you want to continue: y-yes,n-no");
         } while (!SCANNER.nextLine().contains("n"));
-
-
-
+        
     }
 }

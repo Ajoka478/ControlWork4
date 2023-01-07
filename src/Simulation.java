@@ -20,31 +20,13 @@ public class Simulation {
         int choiceAction = 0;
         try {
             choiceAction = sc.nextInt();
-            if (choiceAction> 4 || choiceAction<1){
+            if (choiceAction> 5 || choiceAction<1){
                 System.out.println("Enter correct number");
                 choiceAction = sc.nextInt();
             }
         } catch (Exception e) {
             System.out.println();
         }
-        switch (choiceAction){
-            case 1:
-                Cat.feedCat((cats.get(chooseCat()).getName()), cats.get(chooseCat()).getAge());
-                break;
-            case 2:
-                Cat.playWithCat((cats.get(chooseCat()).getName()), cats.get(chooseCat()).getAge());
-                break;
-            case 3:
-                Cat.treatCat((cats.get(chooseCat()).getName()), cats.get(chooseCat()).getAge());
-                break;
-            case 4:
-                Cat.getNewCat(cats);
-                break;
-            default:
-                System.out.println("Enter numbers from 1-4");
-        }
-    }
-    private static int chooseCat(){
         int choiceCat = 0;
         try {
             System.out.println("Enter cat number (0-3)");
@@ -56,8 +38,27 @@ public class Simulation {
         } catch (Exception e) {
             System.out.println("Enter correct number from 0-3");
         }
-        return choiceCat;
+        switch (choiceAction){
+            case 1:
+                Cat.feedCat((cats.get(choiceCat).getName()), cats.get(choiceCat).getAge());
+                break;
+            case 2:
+                Cat.playWithCat((cats.get(choiceCat).getName()), cats.get(choiceCat).getAge());
+                break;
+            case 3:
+                Cat.treatCat((cats.get(choiceCat).getName()), cats.get(choiceCat).getAge());
+                break;
+            case 4:
+                Cat.getNewCat(cats);
+                break;
+            case 5:
+
+            default:
+                System.out.println("Enter numbers from 1-4");
+        }
+
     }
+
 
 
 }

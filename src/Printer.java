@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 
 public class Printer {
     private static void printHeader() {
-        System.out.printf("%1$10.10s | %1$3.3s | %1$-10.10s | %1$-10.10s | %1$-10.10s | %1$-10.11s|%n", "---------------");
+        System.out.printf("\n%1$10.10s | %1$3.3s | %1$-10.10s | %1$-10.10s | %1$-10.10s | %1$-10.11s|%n", "---------------");
         System.out.printf("%10.10s | %3.3s | %10.10s | %10.10s | %10.10s | %10.10s |%n", "Name", "Age", "Health", "Mood", "Satiety" , "Average");
         System.out.printf("%1$10.10s | %1$3.3s | %1$-10.10s | %1$-10.10s | %1$-10.10s | %1$-10.10s |%n", "--------------");
     }
@@ -22,6 +22,7 @@ public class Printer {
         System.out.println("2 - поиграть");
         System.out.println("3 - к ветеринару");
         System.out.println("4 - завести нового");
+        System.out.println("5 - следующий день");
     }
 
 }

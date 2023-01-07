@@ -17,5 +17,11 @@ public class Printer {
         cats.forEach(Printer::printCat);
         System.out.println();
     }
+    public static void printMenu(){
+        System.out.println("1 - покормить");
+        System.out.println("2 - поиграть");
+        System.out.println("3 - к ветеринару");
+        System.out.println("4 - завести нового");
+    }
 
 }

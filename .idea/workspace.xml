@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c4ce355-6249-49a2-8b1b-512d37d34a64" name="Changes" comment="created file">
-      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Printer.java" afterDir="false" />
+    <list default="true" id="6c4ce355-6249-49a2-8b1b-512d37d34a64" name="Changes" comment="updated classes">
+      <change afterPath="$PROJECT_DIR$/src/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Simulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673067550624</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated classes">
+      <created>1673074419226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673074419226</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created file" />
-    <option name="LAST_COMMIT_MESSAGE" value="created file" />
+    <MESSAGE value="updated classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated classes" />
   </component>
 </project>
